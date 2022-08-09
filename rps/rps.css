@@ -1,0 +1,63 @@
+body {
+  background-color: #293462;
+  font-size: xxx-large;
+}
+.font {
+  color: white;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 14rem;
+}
+.board {
+  display: flex;
+  justify-content: space-between;
+}
+#results {
+  color: green;
+  font-size: xxxx-large !important;
+}
+#paper {
+  border: 10px rgb(0, 140, 255) solid;
+}
+#scissor {
+  border: 10px green solid;
+}
+.vs {
+  padding: 1.5rem;
+}
+.win {
+  font-size: 6rem;
+  font-weight: bold;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+}
+.rp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+}
+button {
+  background-color: #fff;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border: 10px red solid;
+  transform: scale(1.5);
+}
+.s-father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+}
